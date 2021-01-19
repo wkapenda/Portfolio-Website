@@ -1,6 +1,9 @@
 import React, { useState } from "react";
+import About from "./About";
 import Header from "./Header";
 import Home from "./Home";
+import Skills from "./Skills";
+import Projects from "./Projects";
 
 
 function App() {
@@ -11,6 +14,9 @@ function App() {
 
     <Header />
     <Home />
+    <Skills />
+    <About />
+    <Projects />
 
 
 
