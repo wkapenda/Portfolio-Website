@@ -4,6 +4,8 @@ import Header from "./Header";
 import Home from "./Home";
 import Skills from "./Skills";
 import Projects from "./Projects";
+import Contact from "./Contact";
+import Footer from "./Footer";
 
 
 function App() {
@@ -12,24 +14,15 @@ function App() {
 
     <div className="container">
 
-    <Header />
-    <Home />
-    <Skills />
-    <About />
-    <Projects />
-
-
-
-
-
-
-
-    
-      {/* <div className="heading">
-        <h1>To-Do List</h1>
-      </div> */}
-
-  </div>
+      <Header />
+      <Home />
+      <Skills />
+      <About />
+      <Projects />
+      <Contact />
+      <Footer />
+      
+   </div>
   );
 }
 

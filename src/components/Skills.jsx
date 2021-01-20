@@ -57,14 +57,14 @@ function Skills(){
                 <div class="col-lg-3 col-sm-6 col-xs-6 py-2">
                 <div class="boxshadow">
                     <i class="fab fa-html5 fa-2x"></i>
-                    <h6>MONGO.DB</h6>
+                    <h6>MONGODB</h6>
                 </div>
                 </div>
 
                 <div class="col-lg-3 col-sm-6 col-xs-6 py-2">
                 <div class="boxshadow">
                     <i class="fab fa-node fa-2x"></i>
-                    <h6>GITHUB</h6>
+                    <h6>GIT</h6>
                 </div>
             </div>
 
