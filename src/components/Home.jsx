@@ -3,12 +3,12 @@ import React from "react";
 function Home() {
   return (
 
-    <div class="container-fluid white-background">
+    <div class="home">
       <div class="row">
         <div class="col-lg-6 col-md-6">
-        <h2> Hi 👋🏿,</h2>
-        <h1> I'm Willem </h1>
-        <h2> Full-Stack Web Developer</h2>
+        <h2 class="intro"> Hi 👋🏿,</h2>
+        <h1 class="intro"> I'm Willem </h1>
+        <h2 class="jobTitle"> Full-Stack Web Developer</h2>
           <p class="serviceDescription"> I develop high quality, maintainable and modern web applications using my strong 
           background in HTML, CSS, Javascript. As a well organized person and problem solver, I pay attention to detail when
            dealing with a project.

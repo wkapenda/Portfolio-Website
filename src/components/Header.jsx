@@ -6,17 +6,17 @@ function Header() {
   const sign = "<Portfolio />";
 
   return (
-    <div className="Nav">
+    <div className="Nav container-fluid sticky-top">
     
-    <Navbar nav-fill w-100>{/* <Navbar> bg="light" variant="light" */}
+    <Navbar nav-fill w-100>
       <Navbar.Brand href="#home">{sign}</Navbar.Brand>
 
       <Nav className="ml-auto">
-      <Nav.Link href="#home">Home</Nav.Link>
-        <Nav.Link href="#home">Skills</Nav.Link>
-        <Nav.Link href="#features">About</Nav.Link>
-        <Nav.Link href="#pricing">Projects</Nav.Link>
-        <Button variant="outline-primary">Contact Me</Button>
+      <Nav.Link href="#home">HOME</Nav.Link>
+        <Nav.Link href="#home">SKILLS</Nav.Link>
+        <Nav.Link href="#features">ABOUT</Nav.Link>
+        <Nav.Link href="#pricing">PROJECTS</Nav.Link>
+        <Button variant="primary">CONTACT ME</Button>
       </Nav>
     </Navbar>
 

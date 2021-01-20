@@ -12,16 +12,16 @@ function App() {
 
   return (
 
-    <div className="container">
-
+    <div>
       <Header />
+    <div className="container-fluid">
       <Home />
       <Skills />
       <About />
       <Projects />
       <Contact />
       <Footer />
-      
+   </div>
    </div>
   );
 }

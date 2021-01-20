@@ -1,33 +1,86 @@
 body {
   grid-area: main;
-  background-color: #ffeaa7;
+  /* background: #fc00ff; 
+  background: -webkit-linear-gradient(to right, #00dbde, #fc00ff); 
+  background: linear-gradient(to right, #00dbde, #fc00ff); */
+  /* background-color: #ffeaa7; */
   min-height: 70vh;
-  padding: 1rem;
+  padding: 0;
   box-sizing: border-box;
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   align-items: center;
   color: hsl(198, 1%, 29%);
   /* font-family: "Architects Daughter", cursive; */
-  text-align: center;
+  text-align: justify;
   font-size: 130%;
 }
 
-.navbar-brand {
-font-family: 'Cormorant', serif;
-font-size: 2rem;
+.Nav {
 
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+  margin-top:0px;
+  width:100%;
+  background: #fc00ff;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #00dbde, #fc00ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* background-color: #ffeaa7; */
+  padding-right: 120px;
+  padding-left: 120px;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+.navbar {
+  padding: .5rem 0rem;
+}
+
+.navbar-brand {
+  font-family: 'Cormorant', serif;
+  font-size: 2rem;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+  color:white;
+  font-family: 'Mukta Vaani', sans-serif;
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
+}
+
+.intro {
+  font-family: 'Yesteryear', cursive;
+  font-size: 80px;
+}
+
+.jobTitle {
+  font-family: 'DM Serif Display', serif;
+  font-size: 50px;
+
+}
+
+.serviceDescription {
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.home {
+  background-color: white;
+  padding: 100px 0px;
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+  padding-right: 130px;
+  padding-left: 130px;
 }
 
 
 
-/* .Nav {
-  width: 100%;
-  position: fixed;
-  background-color: #ffeaa7;
 
-} */
 
+
+/* 
 .container {
   width: 100%;
   height: auto;
@@ -35,7 +88,7 @@ font-size: 2rem;
   box-sizing: border-box;
   margin-right:auto;
   margin-left: auto;
-}
+} */
 
 /* .container {
   width: 100%;
