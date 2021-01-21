@@ -1,4 +1,6 @@
 import React from "react";
+import Icon from '@mdi/react'
+import { mdiLanguageHtml5 } from "@mdi/js"; 
 
 function Skills(){
     return(
@@ -10,7 +12,11 @@ function Skills(){
 
             <div class="col-lg-3 col-sm-6 col-xs-6 py-2">
                 <div class="boxshadow">
-                    {/* <i class="fab fa-html5 fa-2x"></i> */}
+                    <Icon path={mdiLanguageHtml5}
+                        title="User Profile"
+                        size={3}
+                        color="red"
+                    />
                     <h6>HTML</h6>
                 </div>
             </div>
