@@ -9,10 +9,9 @@ function Home() {
         <h2 class="intro"> Hi 👋🏿,</h2>
         <h1 class="intro"> I'm Willem </h1>
         <h2 class="jobTitle"> Full-Stack Web Developer</h2>
-          <p class="serviceDescription"> I develop responsive, and maintainable web applications 
-          using my front-end and back-end developer skills. Detail-oriented, organized, and precise in my work. Possessing good 
-          communication skills with a knack for clear and illuminating presentation.  
-          Creating products that provide meaningful and relevant experiences to users, I believe in not making the user think when using a product.
+          <p class="serviceDescription"> I develop modern, maintainable and responsive web applications 
+          using my front-end and back-end developer skills. I am detail-oriented, organized, and precise in my work.  
+          I create products that provide meaningful and relevant experiences to users.
           At heart, I am a problem solver who looks forward to challenges, and achiving success throught persistance. 
           I am interested in working on ambitious projects with positive people.</p>
         </div>

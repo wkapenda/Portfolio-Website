@@ -2,7 +2,7 @@ import React from "react";
 
 function Skills(){
     return(
-    <div class="container-fluid white-background">
+    <div class="techStack">
 
     <h2> My Tech Stack </h2>
 

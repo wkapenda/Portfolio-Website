@@ -6,7 +6,7 @@ function Footer(){
 
     return(
         <div>
-            <footer>© {currentYear} Willem Kapenda. All Rights Reserved</footer>
+            <footer>© Copyright {currentYear} Willem Kapenda. All Rights Reserved</footer>
         </div>
 
     );
