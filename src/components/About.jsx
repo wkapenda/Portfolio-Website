@@ -3,16 +3,13 @@ import React from "react";
 function About(){
 
     return(
-        <div class="container-fluid white-background">
+        <div class="about">
 
         <h2>Who's this guy?</h2>
         
             <div class="row">
-
                 <div class="col-lg-6 col-sm-6 col-xs-6 py-2">
-
                     <img src=""></img>
-
                 </div>
 
                 <div class="col-lg-6 col-sm-6 col-xs-6 py-2"> 

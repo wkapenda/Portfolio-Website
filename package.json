@@ -9,11 +9,16 @@
     "@mdi/font": "^5.9.55",
     "@mdi/js": "^5.9.55",
     "@mdi/react": "^1.4.0",
+    "animate-hover": "^1.1.5",
+    "animate.css": "^4.1.1",
+    "animate.css-react": "^1.1.0",
     "bootstrap": "^4.5.3",
+    "mdb-ui-kit": "^3.1.0",
     "react": "16.8.6",
     "react-bootstrap": "^1.4.3",
     "react-dom": "16.8.6",
-    "react-scripts": "3.2.0"
+    "react-scripts": "3.2.0",
+    "react-spring": "^8.0.27"
   },
   "devDependencies": {
     "typescript": "3.3.3"

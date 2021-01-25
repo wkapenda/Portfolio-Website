@@ -101,11 +101,15 @@ h6, p, .serviceDescription {
 
 }
 
+
 .techStack {
   padding: 30px 0 50px;
   text-align: center;
+  border-bottom: 1px solid blue;
+}
 
-  /* color: hsl(198, 1%, 29%); */
+.about, .projects, .contact {
+  padding: 30px 0px 50px;
   border-bottom: 1px solid blue;
 }
 
@@ -113,6 +117,12 @@ h2, h3 {
   padding-bottom: 2rem;
   font-family: 'DM Serif Display', serif;
   text-align: center;
+}
+
+.contact {
+  padding: 30px 100px;
+  margin: 0px;
+  max-width: 100%;
 }
 
 
@@ -195,3 +205,21 @@ li {
   position: relative;
   padding: 0.5rem;
 } */
+
+
+
+
+.boxshadow {
+
+  /* background-image: url(https://drscdn.500px.org/photo/435236/q%3D80_m%3D1500/v2?webp=true&sig=67031bdff6f582f3e027311e2074be452203ab637c0bd21d89128844becf8e40); */
+  background-size: cover;
+  background-position: center center;
+
+  transition: box-shadow 0.5s;
+  will-change: transform;
+  border: 0px solid white;
+}
+
+.boxshadow:hover {
+  box-shadow: 0px 30px 100px -10px blue;
+}
