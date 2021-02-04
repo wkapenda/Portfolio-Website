@@ -8,8 +8,7 @@ function Home() {
     <div class="home">
       <div class="row">
         <div class="col-sm-12 col-md-6">
-
-        <h2 class="intro animated bg-image hover-zoom"> Hi 👋🏿,</h2>
+        <h2 class="greeting"> Hi,</h2>
         <h1 class="intro"> I'm Willem </h1>
         <h2 class="jobTitle"> Full-Stack Web Developer</h2>
           <p class="serviceDescription"> I develop maintainable, user-friendly, scalable and responsive web applications 

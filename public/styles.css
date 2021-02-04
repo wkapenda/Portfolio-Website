@@ -55,27 +55,41 @@ body {
   padding-left: 1rem;
 }
 
-.intro {
+.intro, .greeting {
   font-family: 'Yesteryear', cursive;
-  font-size: 80px;
+  font-size: 50px;
   text-align: left;
   padding-bottom: 0;
 }
 
+.greeting {
+  padding-top: 30px;
+}
+/* .intro {
+  font-family: 'Yesteryear', cursive;
+  font-size: 40px;
+  text-align: left;
+  padding-bottom: 0;
+  padding-top: 20px;
+} */
+
 .jobTitle {
   font-family: 'DM Serif Display', serif;
-  font-size: 50px;
+  padding-bottom: 1rem;
+  font-size: 40px;
+  text-align: left;
 
 }
 
 h6, p, .serviceDescription {
   font-family: 'Montserrat', sans-serif;
+  font-size: medium;
 
 }
 
 .home {
   background-color: white;
-  padding: 50px 0px;
+  padding: 50px 0px 80px;
   border-bottom: 1px solid blue;
 }
 
