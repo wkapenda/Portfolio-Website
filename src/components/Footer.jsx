@@ -13,13 +13,15 @@ function Footer(){
             <footer>© Copyright {currentYear} Willem Kapenda. All Rights Reserved</footer>
         </div>
         <div class="socialMedia col-md-6">
-        <Icon className = "sm"
+        <Icon 
+        className = "sm"
         path={techIcons.mdiLinkedin}
         title="LinkedIn"
         size={1.75}
         color= "f6f5f5"
         />
-        <Icon className = "sm"
+        <Icon 
+        className = "sm"
         path={techIcons.mdiGithub}
         title="Github"
         size={1.75}
