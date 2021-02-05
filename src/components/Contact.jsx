@@ -21,7 +21,7 @@ function Contact(){
                     </div>
                     <div class="col-md-6">
                         <div class="form-group">
-                            <textarea name="txtMsg" class="form-control" placeholder="Your Message *" style={{ width: "100%", height: "150px"}}></textarea>
+                            <textarea name="txtMsg" class="form-control" placeholder="Your Message *" style={{ width: "100%", height: "320px"}}></textarea>
                         </div>
                         <div class="form-group">
                             {/* <input type="submit" name="btnSubmit" class="btnContact" varient="primary" value="Send Message" /> */}

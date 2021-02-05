@@ -136,10 +136,8 @@ h6, p, .serviceDescription {
   max-height: 100%;
   height:300px;
   margin-top: 80px;
-  /* padding-bottom: 30px; */
   border: 2px solid #fc00ff;
   border-radius: 100%;
-  /* box-shadow: 5px 10px #fc00ff; */
 
 }
 
@@ -166,13 +164,13 @@ h2, h3 {
 }
 
 .contact {
-  padding: 30px 100px;
+  padding: 30px 100px 50px;
   margin: 0px;
   max-width: 100%;
 }
 
 .foot {
-  padding: 70px 130px 50px;
+  padding: 60px 130px 20px;
   font-family: 'Montserrat', sans-serif;
   text-align: left;
   font-size:medium;
@@ -182,47 +180,12 @@ h2, h3 {
 
 .socialMedia, .sm {
   text-align: right;
-  padding-left: 12px;
+  padding-left: 20px;
   padding-bottom: 15px;
-  font-size: large;
+  font-size:larger;
 
 }
 
-/* .aboutPicDes {
-  padding-top: 30px;
-} */
-
-
-
-
-
-
-
-
-/* 
-.container {
-  width: 100%;
-  height: auto;
-  padding: 0;
-  box-sizing: border-box;
-  margin-right:auto;
-  margin-left: auto;
-} */
-
-/* .container {
-  width: 100%;
-  height: auto;
-  min-height: 500px;
-  max-width: 500px;
-  min-width: 250px;
-  background: #f1f5f8;
-  background-image: radial-gradient(#bfc0c1 7.2%, transparent 0);
-  background-size: 25px 25px;
-  border-radius: 20px;
-  box-shadow: 4px 3px 7px 2px #00000040;
-  padding: 1rem;
-  box-sizing: border-box;
-} */
 .heading {
   display: flex;
   align-items: center;
