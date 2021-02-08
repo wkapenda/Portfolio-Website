@@ -5,7 +5,7 @@ import * as techIcons from "@mdi/js";
 function Skills(){
 
     return(
-    <div class="techStack">
+    <div class="techStack" id="section2">
 
         <h2> My Tech Stack </h2>
 

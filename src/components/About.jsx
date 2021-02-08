@@ -3,7 +3,7 @@ import React from "react";
 function About(){
 
     return(
-        <div class="about">
+        <div class="about media-body" id="section4">
 
         <h2>Who's this guy?</h2>
         

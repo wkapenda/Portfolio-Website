@@ -1,51 +1,100 @@
-import React from "react";
+import React, { Component } from "react";
+import { Link, animateScroll as scroll } from "react-scroll";
+// import * from 'react-router';
 
 
-function Header() {
-  const sign = "<Portfolio />";
+export default class Navbar extends Component {
+  scrollToTop = () => {
+    scroll.scrollToTop();
+  };
 
-  return (
-    <nav class="Nav navbar navbar-light bg-light container-fluid sticky-top navbar-expand-lg">
-      <a class="logo navbar-brand" href="">{sign}</a>
+  render() {
+    const sign = "<Portfolio />";
+    return (
+
+      <nav class="Nav navbar navbar-light bg-light container-fluid sticky-top navbar-expand-lg">
+      <Link
+            className="logo navbar-brand"
+            alt="Logo"
+            onClick={this.scrollToTop}
+        >
+        {sign}
+      </Link>
+
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span></button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="">HOME</a>
+          <Link
+                className="nav-link"
+                activeClass="active"
+                to="section1"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                HOME
+          </Link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="services.html">SKILLS</a>
+          <Link
+                className="nav-link"
+                activeClass="active"
+                to="section2"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                SKILLS
+          </Link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="team.html">PROJECTS</a>
+          <Link
+                className="nav-link"
+                activeClass="active"
+                to="section3"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                PROJECTS
+          </Link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="about.html">ABOUT</a>
+          <Link
+                className="nav-link"
+                activeClass="active"
+                to="section4"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                ABOUT
+          </Link>
           </li>
           <li class="nav-item nav-btn">
-            <a type="button" class="btn btn-primary" href="contact.html">CONTACT ME</a>
+          <Link
+                className="nav-link btn btn-primary"
+                type="button"
+                // activeClass="active"
+                to="section5"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                CONTACT ME
+          </Link>
           </li>
         </ul>
       </div>
     </nav>
-  );
+
+    );
+  }
 }
-
-export default Header;
-
-{/* <div className="Nav container-fluid sticky-top">
-    
-<Navbar nav-fill w-100>
-  <Navbar.Brand href="#home">{sign}</Navbar.Brand>
-
-  <Nav className="ml-auto">
-  <Nav.Link href="#home">HOME</Nav.Link>
-    <Nav.Link href="#home">SKILLS</Nav.Link>
-    <Nav.Link href="#features">ABOUT</Nav.Link>
-    <Nav.Link href="#pricing">PROJECTS</Nav.Link>
-    <Button variant="primary">CONTACT ME</Button>
-  </Nav>
-</Navbar>
-
-</div> */}

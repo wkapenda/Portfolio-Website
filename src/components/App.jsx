@@ -12,7 +12,7 @@ function App() {
 
   return (
 
-    <div>
+    <div className="body">
       <Header />
     <div className="container-fluid">
       <Home />

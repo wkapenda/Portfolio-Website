@@ -4,7 +4,7 @@ import {Button} from 'react-bootstrap';
 function Contact(){
     return(
 
-        <div class="contact container contact-form">
+        <div class="contact contact-form" id="section5">
             <form method="post">
                 <h3>Drop me a Message</h3>
                 <div class="row">
