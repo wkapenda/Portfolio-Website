@@ -1,8 +1,13 @@
 import React from "react";
+import { Link } from "react-scroll";
 
 function Projects(){
 
+
     return(
+
+
+  
 
         <div class="projects" id="section3">
 
@@ -17,8 +22,28 @@ function Projects(){
                       This content is a little bit longer.</p>
                       <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
-                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                          <button type="button" class="btn btn-sm btn-outline-secondary">Code</button>
+                        <div>
+                          <button
+                              type="button"
+                              className="btn btn-sm btn-outline-secondary"
+                              onClick={(e) => {
+                                e.preventDefault();
+                                window.location.href="https://desolate-springs-11417.herokuapp.com/";
+                                }}
+                          >
+                          View
+                          </button>
+                          <button
+                                type="button"
+                                className="btn btn-sm btn-outline-secondary"
+                                onClick={(e) => {
+                                  e.preventDefault();
+                                  window.location.href="https://github.com/wkapenda/Exclusive-Notes-App";
+                                  }}
+                            >
+                            Code
+                            </button>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -32,8 +57,28 @@ function Projects(){
                       This content is a little bit longer.</p>
                       <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
-                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                          <button type="button" class="btn btn-sm btn-outline-secondary">Code</button>
+                        <div>
+                          <button
+                              type="button"
+                              className="btn btn-sm btn-outline-secondary"
+                              onClick={(e) => {
+                                e.preventDefault();
+                                window.location.href="https://lit-journey-19973.herokuapp.com/";
+                                }}
+                          >
+                          View
+                          </button>
+                          <button
+                                type="button"
+                                className="btn btn-sm btn-outline-secondary"
+                                onClick={(e) => {
+                                  e.preventDefault();
+                                  window.location.href="https://github.com/wkapenda/ToDoList-App";
+                                  }}
+                            >
+                            Code
+                            </button>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -47,8 +92,28 @@ function Projects(){
                       This content is a little bit longer.</p>
                       <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
-                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                          <button type="button" class="btn btn-sm btn-outline-secondary">Code</button>
+                        <div>
+                          <button
+                              type="button"
+                              className="btn btn-sm btn-outline-secondary"
+                              onClick={(e) => {
+                                e.preventDefault();
+                                window.location.href="https://wkapenda.github.io/Tindog-Website/";
+                                }}
+                          >
+                          View
+                          </button>
+                          <button
+                                type="button"
+                                className="btn btn-sm btn-outline-secondary"
+                                onClick={(e) => {
+                                  e.preventDefault();
+                                  window.location.href="https://github.com/wkapenda/Tindog-Website";
+                                  }}
+                            >
+                            Code
+                            </button>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -62,8 +127,28 @@ function Projects(){
                       This content is a little bit longer.</p>
                       <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
-                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                          <button type="button" class="btn btn-sm btn-outline-secondary">Code</button>
+                        <div>
+                          <button
+                              type="button"
+                              className="btn btn-sm btn-outline-secondary"
+                              onClick={(e) => {
+                                e.preventDefault();
+                                window.location.href="https://wkapenda.github.io/Concho-Website/";
+                                }}
+                          >
+                          View
+                          </button>
+                          <button
+                                type="button"
+                                className="btn btn-sm btn-outline-secondary"
+                                onClick={(e) => {
+                                  e.preventDefault();
+                                  window.location.href="https://github.com/wkapenda/Concho-Website";
+                                  }}
+                            >
+                            Code
+                            </button>
+                          </div>
                         </div>
                       </div>
                     </div>
