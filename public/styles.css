@@ -203,7 +203,7 @@ i {
 }
 
 .img-fluid {
-  height:300px;
+  height: 300px;
 }
 
 a:hover, a:visited, a:link, a:active
@@ -246,3 +246,9 @@ a:hover, a:visited, a:link, a:active
     margin-bottom: 20px;
 
   }
+
+  .img-fluid {
+    height: auto;
+  }
+
+}
