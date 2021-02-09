@@ -13,8 +13,8 @@ function Projects(){
 
           <h2>Projects</h2>
 
-            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2">
-              <div class="col">
+            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1">
+              <div class="col col-lg-6">
                   <div class="card shadow-sm">
                     <img src={require("./images/ExclusiveNotes.png")} class="img-fluid" alt="Responsive image"></img>
                     <div class="card-body">
@@ -41,7 +41,7 @@ function Projects(){
                     </div>
                 </div>
               </div>
-              <div class="col">
+              <div class="col col-lg-6">
                   <div class="card shadow-sm">
                     <img src={require("./images/Todolist.png")} class="img-fluid" alt="Responsive image"></img>
                     <div class="card-body">
@@ -66,7 +66,7 @@ function Projects(){
                     </div>
                 </div>
               </div>
-              <div class="col">
+              <div class="col col-lg-6">
                   <div class="card shadow-sm">
                     <img src={require("./images/Tindog.png")} class="img-fluid" alt="Responsive image"></img>
                     <div class="card-body">
@@ -91,7 +91,7 @@ function Projects(){
                     </div>
                   </div>
               </div>
-              <div class="col">
+              <div class="col col-lg-6">
                   <div class="card shadow-sm">
                     <img src={require("./images/Concho.png")} class="img-fluid" alt="Responsive image"></img>
                     <div class="card-body">

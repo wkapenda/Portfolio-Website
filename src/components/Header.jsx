@@ -1,29 +1,32 @@
-import React, { Component } from "react";
+import React, { Component, useState} from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
 // import * from 'react-router';
 
+function Header(){
 
-export default class Navbar extends Component {
-  scrollToTop = () => {
-    scroll.scrollToTop();
-  };
+  const scrollToTop = () => scroll.scrollToTop();
 
-  render() {
-    const sign = "<Portfolio />";
-    return (
+  const [isNavCollapsed, setIsNavCollapsed] = useState(true);
 
-      <nav class="Nav navbar navbar-light bg-light container-fluid sticky-top navbar-expand-lg">
+  const handleNavCollapse = () => setIsNavCollapsed(!isNavCollapsed);
+
+  const sign = "<Portfolio />";
+
+
+  return(
+  
+    <nav class="Nav navbar navbar-light bg-light container-fluid sticky-top navbar-expand-lg">
       <Link
             className="logo navbar-brand"
             alt="Logo"
-            onClick={this.scrollToTop}
+            onClick={scrollToTop}
         >
         {sign}
       </Link>
 
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded={isNavCollapsed ? true : false} aria-label="Toggle navigation" onClick={handleNavCollapse}>
         <span class="navbar-toggler-icon"></span></button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div className= {`${isNavCollapsed ? 'collapse' : ''} navbar-collapse`} id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
           <Link
@@ -95,6 +98,112 @@ export default class Navbar extends Component {
       </div>
     </nav>
 
-    );
-  }
+  );
 }
+
+export default Header;
+
+// export default class Header extends Component {
+
+//   scrollToTop = () => {
+    
+//     scroll.scrollToTop();
+//   };
+
+  
+
+//   handleNavCollapse = () => {
+//     setIsNavCollapsed(!isNavCollapsed);
+//   };
+
+//   render() {
+//     const sign = "<Portfolio />";
+    
+//     return (
+
+//       <nav class="Nav navbar navbar-light bg-light container-fluid sticky-top navbar-expand-lg">
+//       <Link
+//             className="logo navbar-brand"
+//             alt="Logo"
+//             onClick={this.scrollToTop}
+//         >
+//         {sign}
+//       </Link>
+
+//       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded={!this.isNavCollapsed ? true : false} aria-label="Toggle navigation" onClick={this.handleNavCollapse}>
+//         <span class="navbar-toggler-icon"></span></button>
+//       <div class= "{${this.isNavCollapsed ? 'collapse' : ''}} navbar-collapse" id="navbarSupportedContent">
+//         <ul class="navbar-nav ml-auto">
+//           <li class="nav-item">
+//           <Link
+//                 className="nav-link"
+//                 activeClass="active"
+//                 to="section1"
+//                 spy={true}
+//                 smooth={true}
+//                 offset={-70}
+//                 duration={500}
+//               >
+//                 HOME
+//           </Link>
+//           </li>
+//           <li class="nav-item">
+//           <Link
+//                 className="nav-link"
+//                 activeClass="active"
+//                 to="section2"
+//                 spy={true}
+//                 smooth={true}
+//                 offset={-70}
+//                 duration={500}
+//               >
+//                 SKILLS
+//           </Link>
+//           </li>
+//           <li class="nav-item">
+//           <Link
+//                 className="nav-link"
+//                 activeClass="active"
+//                 to="section3"
+//                 spy={true}
+//                 smooth={true}
+//                 offset={-70}
+//                 duration={500}
+//               >
+//                 PROJECTS
+//           </Link>
+//           </li>
+//           <li class="nav-item">
+//           <Link
+//                 className="nav-link"
+//                 activeClass="active"
+//                 to="section4"
+//                 spy={true}
+//                 smooth={true}
+//                 offset={-70}
+//                 duration={500}
+//               >
+//                 ABOUT
+//           </Link>
+//           </li>
+//           <li class="nav-item nav-btn">
+//           <Link
+//                 className="nav-link btn btn-primary"
+//                 type="button"
+//                 // activeClass="active"
+//                 to="section5"
+//                 spy={true}
+//                 smooth={true}
+//                 offset={-70}
+//                 duration={500}
+//               >
+//                 CONTACT ME
+//           </Link>
+//           </li>
+//         </ul>
+//       </div>
+//     </nav>
+
+//     );
+//   }
+// }
