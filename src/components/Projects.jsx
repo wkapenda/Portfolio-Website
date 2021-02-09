@@ -22,27 +22,19 @@ function Projects(){
                       This content is a little bit longer.</p>
                       <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
-                        <div>
-                          <button
-                              type="button"
-                              className="btn btn-sm btn-outline-secondary"
-                              onClick={(e) => {
-                                e.preventDefault();
-                                window.location.href="https://desolate-springs-11417.herokuapp.com/";
-                                }}
-                          >
-                          View
-                          </button>
-                          <button
-                                type="button"
-                                className="btn btn-sm btn-outline-secondary"
-                                onClick={(e) => {
-                                  e.preventDefault();
-                                  window.location.href="https://github.com/wkapenda/Exclusive-Notes-App";
-                                  }}
-                            >
+                          <div>
+                            <a 
+                            class="btn btn-sm btn-outline-secondary"
+                            target="_blank" 
+                            href="https://desolate-springs-11417.herokuapp.com/">
+                            View
+                            </a>
+                            <a 
+                            class="btn btn-sm btn-outline-secondary"
+                            target="_blank" 
+                            href="https://github.com/wkapenda/Exclusive-Notes-App">
                             Code
-                            </button>
+                            </a>
                           </div>
                         </div>
                       </div>
@@ -57,27 +49,19 @@ function Projects(){
                       This content is a little bit longer.</p>
                       <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
-                        <div>
-                          <button
-                              type="button"
-                              className="btn btn-sm btn-outline-secondary"
-                              onClick={(e) => {
-                                e.preventDefault();
-                                window.location.href="https://lit-journey-19973.herokuapp.com/";
-                                }}
-                          >
-                          View
-                          </button>
-                          <button
-                                type="button"
-                                className="btn btn-sm btn-outline-secondary"
-                                onClick={(e) => {
-                                  e.preventDefault();
-                                  window.location.href="https://github.com/wkapenda/ToDoList-App";
-                                  }}
-                            >
-                            Code
-                            </button>
+                          <div>
+                              <a 
+                              class="btn btn-sm btn-outline-secondary"
+                              target="_blank" 
+                              href="https://lit-journey-19973.herokuapp.com/">
+                              View
+                              </a>
+                              <a 
+                              class="btn btn-sm btn-outline-secondary"
+                              target="_blank" 
+                              href="https://github.com/wkapenda/ToDoList-App">
+                              Code
+                              </a>
                           </div>
                         </div>
                       </div>
@@ -92,32 +76,24 @@ function Projects(){
                       This content is a little bit longer.</p>
                       <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
-                        <div>
-                          <button
-                              type="button"
-                              className="btn btn-sm btn-outline-secondary"
-                              onClick={(e) => {
-                                e.preventDefault();
-                                window.location.href="https://wkapenda.github.io/Tindog-Website/";
-                                }}
-                          >
-                          View
-                          </button>
-                          <button
-                                type="button"
-                                className="btn btn-sm btn-outline-secondary"
-                                onClick={(e) => {
-                                  e.preventDefault();
-                                  window.location.href="https://github.com/wkapenda/Tindog-Website";
-                                  }}
-                            >
-                            Code
-                            </button>
+                          <div>
+                              <a 
+                              class="btn btn-sm btn-outline-secondary"
+                              target="_blank" 
+                              href="https://wkapenda.github.io/Tindog-Website/">
+                              View
+                              </a>
+                              <a 
+                              class="btn btn-sm btn-outline-secondary"
+                              target="_blank" 
+                              href="https://github.com/wkapenda/Tindog-Website">
+                              Code
+                              </a>
                           </div>
                         </div>
                       </div>
                     </div>
-                </div>
+                  </div>
               </div>
               <div class="col">
                   <div class="card shadow-sm">
@@ -127,33 +103,25 @@ function Projects(){
                       This content is a little bit longer.</p>
                       <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
-                        <div>
-                          <button
-                              type="button"
-                              className="btn btn-sm btn-outline-secondary"
-                              onClick={(e) => {
-                                e.preventDefault();
-                                window.location.href="https://wkapenda.github.io/Concho-Website/";
-                                }}
-                          >
-                          View
-                          </button>
-                          <button
-                                type="button"
-                                className="btn btn-sm btn-outline-secondary"
-                                onClick={(e) => {
-                                  e.preventDefault();
-                                  window.location.href="https://github.com/wkapenda/Concho-Website";
-                                  }}
-                            >
-                            Code
-                            </button>
+                          <div>
+                              <a 
+                              class="btn btn-sm btn-outline-secondary"
+                              target="_blank" 
+                              href="https://wkapenda.github.io/Concho-Website/">
+                              View
+                              </a>
+                              <a 
+                              class="btn btn-sm btn-outline-secondary"
+                              target="_blank" 
+                              href="https://github.com/wkapenda/Concho-Website">
+                              Code
+                              </a>
                           </div>
                         </div>
                       </div>
                     </div>
+                  </div>
                 </div>
-              </div>
             </div>
         </div>
 
