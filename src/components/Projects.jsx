@@ -1,13 +1,9 @@
 import React from "react";
-import { Link } from "react-scroll";
 
 function Projects(){
 
 
     return(
-
-
-  
 
         <div class="projects" id="section3">
 
@@ -19,7 +15,7 @@ function Projects(){
                     <img src={require("./images/ExclusiveNotes.png")} class="img-fluid" alt="Responsive image"></img>
                     <div class="card-body">
                       <p class="card-text">Exclusive Notes provides a platform for users to record their own notes. 
-                      Displaying neatly each individual note when added and removing a note when it is deleted.</p>
+                      Displaying each individual note neatly when added and removal of a note upon deletion.</p>
                       <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
                           <div>
@@ -74,7 +70,7 @@ function Projects(){
                     <img src={require("./images/Tindog.png")} class="img-fluid" alt="Responsive image"></img>
                     <div class="card-body">
                     <p class="card-text">A concept website for a Tinder like app for dogs that lets you "Find other dogs & their owners around you",
-                     the website provides download options for the app for android and iOS. 
+                     the website provides download options of the app for android and iOS. 
                     </p>
                       <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
@@ -102,7 +98,7 @@ function Projects(){
                     <img src={require("./images/Concho.png")} class="img-fluid" alt="Responsive image"></img>
                     <div class="card-body">
                     <p class="card-text">A website for a consulting company, displays what services they offer, the team members involved, and provides
-                    their contact details. The website coded purely with HTML5, CSS3 and Bootstrap4. Front-end concept design.
+                    their contact details. The website coded purely with HTML5, CSS3 and Bootstrap4. A front-end concept design.
                     </p>
 
                       <div class="d-flex justify-content-between align-items-center">

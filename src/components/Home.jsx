@@ -1,5 +1,4 @@
 import React from "react";
-// import {useSpring, animated} from 'react-spring'
 
 
 function Home() {
@@ -14,8 +13,8 @@ function Home() {
           <p class="serviceDescription"> I develop maintainable, user-friendly, scalable and responsive web applications 
           using modern front-end and back-end skills. I am detail-oriented, organized, and precise in my work.  
           I want to create products that provide great value to companies and give users meaningful experiences.
-          At heart, I am a problem solver who looks forward to challenges, and achiving success throught persistance. 
-          I am interested in working on ambitious projects with positive people.</p>
+          At heart, I am a problem solver who looks forward to challenges, and achieving success through persistance. 
+          I am interested in working on exciting projects with like-minded ambitious people.</p>
         </div>
 
         <div class="homeImages col-lg-6">

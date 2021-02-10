@@ -63,7 +63,6 @@ function Skills(){
             </div>
 
             <div class="col-lg-3 col-sm-6 col-xs-6 py-2">
-                {/* <div class=""> */}
                 <Icon 
                 className = "jqueryIcon boxshadow"
                 path={techIcons.mdiJquery}
@@ -71,7 +70,6 @@ function Skills(){
                 size={3}
                 color="#0769AD"
                 />     
-                {/* </div> */}
                 <h6>JQUERY</h6>
             </div>
 

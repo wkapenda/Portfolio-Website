@@ -1,17 +1,11 @@
 body {
   grid-area: main;
-  /* background: #fc00ff; 
-  background: -webkit-linear-gradient(to right, #00dbde, #fc00ff); 
-  background: linear-gradient(to right, #00dbde, #fc00ff); */
-  /* background-color: #ffeaa7; */
   min-height: 70vh;
   padding: 0;
   box-sizing: border-box;
-  /* display: flex; */
   justify-content: center;
   align-items: center;
   color: hsl(198, 1%, 29%);
-  /* font-family: "Architects Daughter", cursive; */
   text-align: justify;
   font-size: 130%;
 }
@@ -24,7 +18,6 @@ body {
   background: #fc00ff;
   background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);  
   background: linear-gradient(to right, #00dbde, #fc00ff);   
-  /* background-color: #ffeaa7; */
   padding-right: 120px;
   padding-left: 120px;
   margin-right: auto;
@@ -65,13 +58,7 @@ body {
 .greeting {
   padding-top: 30px;
 }
-/* .intro {
-  font-family: 'Yesteryear', cursive;
-  font-size: 40px;
-  text-align: left;
-  padding-bottom: 0;
-  padding-top: 20px;
-} */
+
 
 .jobTitle {
   font-family: 'DM Serif Display', serif;
@@ -119,10 +106,8 @@ h6, p, .serviceDescription {
   max-width: 100%;
   max-height: 100%;
   height:auto;
-  /* padding-bottom: 30px; */
   border: 2px solid #00dbde;
   border-radius: 15px;
-  /* box-shadow: 5px 10px #fc00ff; */
 
 }
 
@@ -155,6 +140,10 @@ h6, p, .serviceDescription {
 .about, .projects {
   padding: 30px 0px 60px;
   border-bottom: 1px solid blue;
+}
+
+.projects {
+  padding-bottom: 100px;
 }
 
 h2, h3 {
@@ -212,14 +201,10 @@ a:hover, a:visited, a:link, a:active
 }
 
 
-
-
 .boxshadow {
 
-  /* background-image: url(https://drscdn.500px.org/photo/435236/q%3D80_m%3D1500/v2?webp=true&sig=67031bdff6f582f3e027311e2074be452203ab637c0bd21d89128844becf8e40); */
   background-size: cover;
   background-position: center center;
-
   transition: box-shadow 0.5s;
   will-change: transform;
   border: 0px solid white;
