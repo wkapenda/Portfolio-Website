@@ -18,8 +18,8 @@ function Projects(){
                   <div class="card shadow-sm">
                     <img src={require("./images/ExclusiveNotes.png")} class="img-fluid" alt="Responsive image"></img>
                     <div class="card-body">
-                      {/* <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. 
-                      This content is a little bit longer.</p> */}
+                      <p class="card-text">Exclusive Notes provides a platform for users to record their own notes. 
+                      Displaying neatly each individual note when added and removing a note when it is deleted.</p>
                       <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
                           <div>
@@ -45,6 +45,9 @@ function Projects(){
                   <div class="card shadow-sm">
                     <img src={require("./images/Todolist.png")} class="img-fluid" alt="Responsive image"></img>
                     <div class="card-body">
+                    <p class="card-text">A virtual list that stores your important tasks and errands that need to be accomplished. 
+                    The user is able to seamlessly add each task and remove any task by clicking on it.
+                    </p>
                       <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
                           <div>
@@ -70,6 +73,9 @@ function Projects(){
                   <div class="card shadow-sm">
                     <img src={require("./images/Tindog.png")} class="img-fluid" alt="Responsive image"></img>
                     <div class="card-body">
+                    <p class="card-text">A concept website for a Tinder like app for dogs that lets you "Find other dogs & their owners around you",
+                     the website provides download options for the app for android and iOS. 
+                    </p>
                       <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
                           <div>
@@ -95,6 +101,10 @@ function Projects(){
                   <div class="card shadow-sm">
                     <img src={require("./images/Concho.png")} class="img-fluid" alt="Responsive image"></img>
                     <div class="card-body">
+                    <p class="card-text">A website for a consulting company, displays what services they offer, the team members involved, and provides
+                    their contact details. The website coded purely with HTML5, CSS3 and Bootstrap4. Front-end concept design.
+                    </p>
+
                       <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
                           <div>

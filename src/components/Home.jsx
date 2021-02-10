@@ -13,7 +13,7 @@ function Home() {
         <h2 class="jobTitle"> Full-Stack Engineer</h2>
           <p class="serviceDescription"> I develop maintainable, user-friendly, scalable and responsive web applications 
           using modern front-end and back-end skills. I am detail-oriented, organized, and precise in my work.  
-          I want to create products that provide meaningful and relevant experiences to users.
+          I want to create products that provide great value to companies and give users meaningful experiences.
           At heart, I am a problem solver who looks forward to challenges, and achiving success throught persistance. 
           I am interested in working on ambitious projects with positive people.</p>
         </div>
