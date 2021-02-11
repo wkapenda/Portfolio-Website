@@ -153,13 +153,13 @@ h2, h3 {
 }
 
 .contact {
-  padding: 40px 100px 210px;
+  padding: 40px 100px 100px;
   margin: 0px;
   max-width: 100%;
 }
 
 .foot {
-  padding: 90px 130px 60px;
+  padding: 60px 130px 30px;
   font-family: 'Montserrat', sans-serif;
   text-align: left;
   font-size:medium;
