@@ -20,8 +20,9 @@ function Header(){
             className="logo navbar-brand"
             alt="Logo"
             onClick={scrollToTop}
+            type="button"
         >
-        {sign}
+        <img src={require("./images/wklogo.png")} class="wklogo"></img>
       </Link>
 
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded={isNavCollapsed ? true : false} aria-label="Toggle navigation" onClick={handleNavCollapse}>
@@ -36,6 +37,7 @@ function Header(){
                 smooth={true}
                 offset={-70}
                 duration={500}
+                type="button"
               >
                 HOME
           </Link>
@@ -48,6 +50,7 @@ function Header(){
                 smooth={true}
                 offset={-70}
                 duration={500}
+                type="button"
               >
                 SKILLS
           </Link>
@@ -60,6 +63,7 @@ function Header(){
                 smooth={true}
                 offset={-70}
                 duration={500}
+                type="button"
               >
                 PROJECTS
           </Link>
@@ -72,6 +76,7 @@ function Header(){
                 smooth={true}
                 offset={-70}
                 duration={500}
+                type="button"
               >
                 ABOUT
           </Link>

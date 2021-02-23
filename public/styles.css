@@ -98,6 +98,12 @@ h6, p, .serviceDescription {
 
 }
 
+.wklogo {
+  height: 3rem;
+  width: 4rem;
+
+}
+
 .techBackPic, .profilePic{
   
   position: relative;
@@ -159,7 +165,7 @@ h2, h3 {
 }
 
 .foot {
-  padding: 60px 130px 30px;
+  padding: 60px 130px 30 px;
   font-family: 'Montserrat', sans-serif;
   text-align: left;
   font-size:medium;
