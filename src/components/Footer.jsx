@@ -1,6 +1,4 @@
 import React from "react";
-import Icon from '@mdi/react'
-import * as techIcons from "@mdi/js";
 
 function Footer(){
 
