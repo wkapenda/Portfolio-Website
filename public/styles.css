@@ -117,6 +117,11 @@ h6, p, .serviceDescription {
 
 }
 
+#userId {
+  float: right;
+
+}
+
 .profilePic{
   
   position: relative;
@@ -165,7 +170,7 @@ h2, h3 {
 }
 
 .foot {
-  padding: 60px 130px 30 px;
+  padding: 60px 130px 30px;
   font-family: 'Montserrat', sans-serif;
   text-align: left;
   font-size:medium;
@@ -204,6 +209,20 @@ i {
 a:hover, a:visited, a:link, a:active
 {
     text-decoration: none;
+}
+
+.card {
+  
+  padding: 0px 50px;
+  text-align: justify;
+  margin: 40px 0px;
+  border: 0;
+  max-width: 100%;
+}
+
+.cardDeck {
+  max-width: 0;
+
 }
 
 

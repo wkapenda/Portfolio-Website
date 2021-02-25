@@ -1,10 +1,13 @@
-import React, {useState} from "react";
+import React, {useState, state} from "react";
+import {makeStyles} from '@material-ui/core/styles';
+import TextField from '@material-ui/core/TextField';
 import {Button} from 'react-bootstrap';
 import emailjs, { init } from 'emailjs-com';
 init("user_mrm5aSXRYOQrkQh8FgJB6");
 
-function Contact(){
 
+
+function Contact(){
 
     const [contact, setContact] = useState({
         fName: "",
@@ -58,6 +61,7 @@ function Contact(){
       }
 
 
+
     return(
 
       <div class="contact contact-form" id="section5">
@@ -65,45 +69,57 @@ function Contact(){
       <h3>Drop me a Message</h3>
         <div class="row">
           <div class="col-md-6">
-              <div class="form-group">
-                  <input
+          <div class="form-group">
+                  <TextField
+                  id="userInfoId"
                   autoComplete="off"
                   onChange={DetectTyping} 
-                  name="fName" 
-                  class="form-control" 
-                  placeholder="Your Name ..."
+                  name="fName"
+                  label="Name"
+                  variant="outlined" 
+                  style={{ width: "80%"}}
                   value={contact.fName}
                   />
-              </div>
-              <div class="form-group">
-                  <input
+                </div>
+
+                <div class="form-group userId">
+                <TextField
+                  id="userInfoId"
                   autoComplete="off"
-                  type="email" 
-                  onChange={DetectTyping} 
-                  name="email" 
-                  class="form-control" 
-                  placeholder="Your Email ..."
+                  onChange={DetectTyping}
+                  type="email"
+                  name="email"
+                  label="Email"
+                  style={{ width: "80%"}}
+                  variant="outlined" 
                   value={contact.email}
                   />
               </div>
               </div>
-              <div class="col-md-6">
-                  <div class="form-group">
-                      <textarea 
-                      onChange={DetectTyping}
-                      name="message" 
-                      class="form-control" 
-                      placeholder="Your Message ..." 
-                      style={{ width: "100%", height: "320px"}}
-                      value={contact.message}
-                      >
-                      </textarea>
+                <div class="col-md-6">
+
+                <div class="form-group">
+                  <TextField
+                    id="messageId"
+                    onChange={DetectTyping}
+                    autoComplete="off"
+                    name="message" 
+                    label="Message"
+                    variant="outlined"
+                    multiline
+                    rows={12} 
+                    style={{ width: "80%", height: "320px"}}
+                    value={contact.message}
+                  />
                   </div>
+                    
+
                   <div class="form-group">
                       <Button type="submit" form="form1" variant="primary" value="Send">Send Message</Button>
                   </div>
               </div>
-        </div>
+              
+          </div>
       </form>
     </div>
 
