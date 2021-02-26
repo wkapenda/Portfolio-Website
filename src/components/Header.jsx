@@ -20,7 +20,7 @@ function Header(){
             className="logo navbar-brand"
             alt="Logo"
             onClick={scrollToTop}
-            type="button"
+            component="button"
         >
         <img src={require("./images/wklogo.png")} class="wklogo"></img>
       </Link>
