@@ -25,7 +25,9 @@ function Header(){
         <img src={require("./images/wklogo.png")} class="wklogo"></img>
       </Link>
 
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded={isNavCollapsed ? true : false} aria-label="Toggle navigation" onClick={handleNavCollapse}>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
+      aria-controls="navbarSupportedContent" aria-expanded={isNavCollapsed ? true : false} aria-label="Toggle navigation" 
+      onClick={handleNavCollapse}>
         <span class="navbar-toggler-icon"></span></button>
       <div className= {`${isNavCollapsed ? 'collapse' : ''} navbar-collapse`} id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">

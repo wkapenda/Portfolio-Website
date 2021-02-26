@@ -104,6 +104,11 @@ h6, p, .serviceDescription {
 
 }
 
+.logo {
+  border: "none";
+  outline:"none";
+}
+
 .techBackPic, .profilePic{
   
   position: relative;
