@@ -101,13 +101,11 @@ h6, p, .serviceDescription {
 .wklogo {
   height: 3rem;
   width: 4rem;
+  border: none;
+  outline: none;
 
 }
 
-.logo {
-  border: "none";
-  outline:"none";
-}
 
 .techBackPic, .profilePic{
   

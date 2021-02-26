@@ -10,8 +10,6 @@ function Header(){
 
   const handleNavCollapse = () => setIsNavCollapsed(!isNavCollapsed);
 
-  const sign = "<Portfolio />";
-
 
   return(
   
@@ -20,7 +18,8 @@ function Header(){
             className="logo navbar-brand"
             alt="Logo"
             onClick={scrollToTop}
-            component="button"
+            type="button"
+            
         >
         <img src={require("./images/wklogo.png")} class="wklogo"></img>
       </Link>
