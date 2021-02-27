@@ -69,7 +69,7 @@ function Header(){
                 PROJECTS
           </Link>
           </li>
-          <li class="nav-item">
+          <li class="nav-item btn">
           <Link
                 className="nav-link"
                 activeClass="active"
@@ -77,7 +77,7 @@ function Header(){
                 smooth={true}
                 offset={-70}
                 duration={500}
-                type="button"
+                // type="button"
               >
                 ABOUT
           </Link>
