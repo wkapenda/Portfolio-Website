@@ -15,10 +15,10 @@ function Header(){
   
     <nav class="Nav navbar navbar-light bg-light container-fluid sticky-top navbar-expand-lg">
       <Link
-            className="logo navbar-brand"
+            className="logo navbar-brand btn"
             alt="Logo"
             onClick={scrollToTop}
-            type="button"
+            // type="button"
             
         >
         <img src={require("./images/wklogo.png")} class="wklogo"></img>
@@ -32,46 +32,46 @@ function Header(){
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
           <Link
-                className="nav-link"
+                className="nav-link btn"
                 activeClass="active"
                 to="section1"
                 smooth={true}
                 offset={-70}
                 duration={500}
-                type="button"
+                // type="button"
               >
                 HOME
           </Link>
           </li>
           <li class="nav-item">
           <Link
-                className="nav-link"
+                className="nav-link btn"
                 activeClass="active"
                 to="section2"
                 smooth={true}
                 offset={-70}
                 duration={500}
-                type="button"
+                // type="button"
               >
                 SKILLS
           </Link>
           </li>
           <li class="nav-item">
           <Link
-                className="nav-link"
+                className="nav-link btn"
                 activeClass="active"
                 to="section3"
                 smooth={true}
                 offset={-70}
                 duration={500}
-                type="button"
+                // type="button"
               >
                 PROJECTS
           </Link>
           </li>
-          <li class="nav-item btn">
+          <li class="nav-item">
           <Link
-                className="nav-link"
+                className="nav-link btn"
                 activeClass="active"
                 to="section4"
                 smooth={true}
