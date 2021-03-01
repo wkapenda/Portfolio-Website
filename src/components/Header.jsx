@@ -30,7 +30,7 @@ function Header(){
 
   // Drawer functions
 
-  const drawerWidth = 160;
+  const drawerWidth = 170;
 
   const useStyles = makeStyles((theme) => ({
     root: {

@@ -38,11 +38,11 @@ body {
   width: 50px;
 } */
 
-ul {
-  list-style-type: none; /* Remove bullets */
-  padding: 0; /* Remove padding */
-  margin: 0; /* Remove margins */
-}
+/* ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+} */
 
 
 
@@ -109,7 +109,7 @@ h6, p, .serviceDescription {
 
 .home {
   background-color: white;
-  padding: 70px 0px 170px;
+  padding: 160px 0px 160px;
   border-bottom: 1px solid blue;
   margin-bottom: 20px;
 
