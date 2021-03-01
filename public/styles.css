@@ -283,6 +283,10 @@ a:hover, a:visited, a:link, a:active
     text-align: center;
   }
 
+  p {
+    text-align: justify;
+  }
+
   .profilePic {
     position: static;
     left: 0;
@@ -294,5 +298,25 @@ a:hover, a:visited, a:link, a:active
   .img-fluid {
     height: auto;
   }
+
+  .navlinks {
+    display: none;
+  }
+
+  .logo{
+    padding-left: 60px
+  }
+
+}
+
+@media (min-width: 1028px) {
+
+  .hamIcon {
+    display: none;
+  }
+
+  /* .Nav {
+    padding-left:104px;
+  } */
 
 }
