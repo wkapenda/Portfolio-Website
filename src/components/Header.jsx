@@ -9,14 +9,13 @@ import CssBaseline from "@material-ui/core/CssBaseline";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import List from "@material-ui/core/List";
-import Typography from "@material-ui/core/Typography";
 import Divider from "@material-ui/core/Divider";
 import IconButton from "@material-ui/core/IconButton";
 import MenuIcon from "@material-ui/icons/Menu";
 import ChevronLeftIcon from "@material-ui/icons/ChevronLeft";
 import ChevronRightIcon from "@material-ui/icons/ChevronRight";
 import ListItem from "@material-ui/core/ListItem";
-import ListItemText from "@material-ui/core/ListItemText";
+
 
 
 
@@ -31,7 +30,7 @@ function Header(){
 
   // Drawer functions
 
-  const drawerWidth = 240;
+  const drawerWidth = 160;
 
   const useStyles = makeStyles((theme) => ({
     root: {
@@ -74,7 +73,7 @@ function Header(){
     },
     content: {
       flexGrow: 1,
-      padding: theme.spacing(3),
+      padding: theme.spacing(2),
       transition: theme.transitions.create("margin", {
         easing: theme.transitions.easing.sharp,
         duration: theme.transitions.duration.leavingScreen
@@ -102,17 +101,16 @@ function Header(){
     setOpen(false);
   };
 
-
-
+  
   return(
 
-    <div className={classes.root}>
-    <CssBaseline/>
+    <div className="${classes.root} appTop">
+
+    <CssBaseline />
+    
     <AppBar
       position="fixed"
-      className="${clsx(classes.appBar, {
-        [classes.appBarShift]: open
-      })} Nav"
+      className="${clsx(classes.appBar, { [classes.appBarShift]: open })} Nav"
       
     >
       <Toolbar>
@@ -124,9 +122,9 @@ function Header(){
           className={clsx(classes.menuButton, open && classes.hide) }
           
         >
-        <MenuIcon />
-
+          <MenuIcon />
         </IconButton>
+
         <Link
             className="logo navbar-brand btn"
             alt="Logo"
@@ -136,8 +134,6 @@ function Header(){
         </Link>
 
         <div className="navlinks  ml-auto">
-
-
           <Link
                 className="btn"
                 activeClass="active"
@@ -200,8 +196,8 @@ function Header(){
           </Link>
           </div>
       </Toolbar>
-
     </AppBar>
+
     <Drawer
       className={classes.drawer}
       variant="persistent"
@@ -211,38 +207,95 @@ function Header(){
         paper: classes.drawerPaper
       }}
     >
-      <div className="${classes.drawerHeader}  Nav">
+      <div className="${classes.drawerHeader} navSlideBar Nav">
         <IconButton onClick={handleDrawerClose}>
           {theme.direction === "ltr" ? (
-            <ChevronLeftIcon />
+            <ChevronLeftIcon style={{ color: "white" }}/>
           ) : (
-            <ChevronRightIcon />
+            <ChevronRightIcon style={{ color: "white" }}/>
           )}
         </IconButton>
       </div>
       <Divider />
       <List>
-        {["Home", "Skills", "Projects", "About", "Contact Me"].map(
-          (text, index) => (
-            <ListItem button key={text}>
-              <ListItemText primary={text} />
-            </ListItem>
-          )
-        )}
+
+      <ListItem button>
+      <Link
+          className="btn"
+          activeClass="active"
+          to="section1"
+          smooth={true}
+          offset={-70}
+          duration={500}
+          style={{ color: "black" }}
+        >
+          Home
+        </Link>
+      </ListItem>
+
+      <ListItem button>
+      <Link
+          className="btn"
+          activeClass="active"
+          to="section2"
+          smooth={true}
+          offset={-70}
+          duration={500}
+          style={{ color: "black" }}
+        >
+          Skills
+        </Link>
+      </ListItem>
+
+      <ListItem button>
+      <Link
+          className="btn"
+          activeClass="active"
+          to="section3"
+          smooth={true}
+          offset={-70}
+          duration={500}
+          style={{ color: "black" }}
+        >
+          Projects
+        </Link>
+      </ListItem>
+
+      <ListItem button>
+      <Link
+          className="btn"
+          activeClass="active"
+          to="section4"
+          smooth={true}
+          offset={-70}
+          duration={500}
+          style={{ color: "black" }}
+        >
+          About
+        </Link>
+      </ListItem>
+
+      <ListItem button>
+      <Link
+          className="btn"
+          activeClass="active"
+          to="section5"
+          smooth={true}
+          offset={-70}
+          duration={500}
+          style={{ color: "black" }}
+        >
+          Contact Me
+        </Link>
+      </ListItem>
+
+    
       </List>
     </Drawer>
-    <main
-      className={clsx(classes.content, {
-        [classes.contentShift]: open
-      })}
-    >
-      <div className={classes.drawerHeader} />
-    </main>
+
+
+
   </div>
-
-   
-  
-
 
   );
 }

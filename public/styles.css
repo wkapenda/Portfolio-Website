@@ -11,12 +11,11 @@ body {
   background-color: white;
 }
 
-.makeStyles-root-1 {
+.appTop {
   background-color: white;
 }
 
 .Nav {
-
   box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
   margin-top:0px;
   width:100%;
@@ -29,6 +28,24 @@ body {
   margin-left: auto;
 
 }
+
+.navSlideBar {
+  padding-top: 8px;
+  padding-bottom: 9px;
+}
+
+/* .MuiDrawer-paper {
+  width: 50px;
+} */
+
+ul {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+}
+
+
+
 
 .navbar {
   padding: .5rem 0rem;
