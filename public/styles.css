@@ -5,9 +5,14 @@ body {
   box-sizing: border-box;
   justify-content: center;
   align-items: center;
-  color: hsl(198, 1%, 29%);
+  /* color: hsl(198, 1%, 29%); */
   text-align: justify;
   font-size: 130%;
+  background-color: white;
+}
+
+.makeStyles-root-1 {
+  background-color: white;
 }
 
 .Nav {
@@ -18,8 +23,8 @@ body {
   background: #fc00ff;
   background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);  
   background: linear-gradient(to right, #00dbde, #fc00ff);   
-  padding-right: 120px;
-  padding-left: 120px;
+  padding-right: 104px;
+  padding-left: 104px;
   margin-right: auto;
   margin-left: auto;
 
@@ -33,6 +38,9 @@ body {
   font-family: 'Cormorant', serif;
   color: black;
   font-size: 1.5rem;
+  margin-right: 0;
+  padding-right: 0px;
+  padding-left: 0px;
 }
 
 
@@ -44,8 +52,16 @@ body {
   padding-left: 0.75rem;
 }
 
-.nav-btn {
-  padding-left: 1rem;
+.btn {
+  color: white;
+  font-size: 1rem;
+  font-family: 'Mukta Vaani', sans-serif;
+  /* padding-right: 0.8rem;
+  padding-left: 0.75rem; */
+}
+
+.contact-btn {
+  margin-left: 1rem;
 }
 
 .intro, .greeting {
@@ -76,7 +92,7 @@ h6, p, .serviceDescription {
 
 .home {
   background-color: white;
-  padding: 90px 0px 170px;
+  padding: 70px 0px 170px;
   border-bottom: 1px solid blue;
   margin-bottom: 20px;
 
@@ -85,6 +101,7 @@ h6, p, .serviceDescription {
 .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
   padding-right: 130px;
   padding-left: 130px;
+  background-color: white;
 }
 
 .idPic {
@@ -223,6 +240,7 @@ a:hover, a:visited, a:link, a:active
   max-width: 0;
 
 }
+
 
 
 .boxshadow {
