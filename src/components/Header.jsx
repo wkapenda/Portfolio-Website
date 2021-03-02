@@ -126,6 +126,8 @@ function Header(){
         </IconButton>
       </div>
 
+      <div className="spacer"></div>
+
         <Link
             className="logo navbar-brand btn"
             alt="Logo"

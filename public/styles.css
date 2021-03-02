@@ -303,8 +303,12 @@ a:hover, a:visited, a:link, a:active
     display: none;
   }
 
-  .logo{
+  /* .logo{
     padding-left: 60px
+  } */
+
+  .spacer {
+    flex: 1;
   }
 
 }
