@@ -103,7 +103,8 @@ body {
 
 h6, p, .serviceDescription {
   font-family: 'Montserrat', sans-serif;
-  font-size: medium;
+  font-size: -5vh;
+  /* font-size: medium; */
 
 }
 
@@ -303,9 +304,38 @@ a:hover, a:visited, a:link, a:active
     display: none;
   }
 
-  /* .logo{
-    padding-left: 60px
-  } */
+  .wklogo {
+    height: 40%;
+    width: 8rem;
+
+
+  }
+
+  .intro, .greeting {
+    font-size: 800%;
+  }
+
+  .jobTitle, h2, h3 {
+    font-size: 400%;
+  }
+
+  h6, p, .serviceDescription {
+    font-size: 150%;
+  }
+
+  .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  .Nav {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  body {
+    font-weight: 800;
+  } 
 
   .spacer {
     flex: 1;
