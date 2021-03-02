@@ -15,6 +15,8 @@ import MenuIcon from "@material-ui/icons/Menu";
 import ChevronLeftIcon from "@material-ui/icons/ChevronLeft";
 import ChevronRightIcon from "@material-ui/icons/ChevronRight";
 import ListItem from "@material-ui/core/ListItem";
+import { Typography } from "@material-ui/core";
+import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
 
 
 
@@ -30,7 +32,7 @@ function Header(){
 
   // Drawer functions
 
-  const drawerWidth = 170;
+  const drawerWidth = 300;
 
   const useStyles = makeStyles((theme) => ({
     root: {
@@ -101,6 +103,24 @@ function Header(){
     setOpen(false);
   };
 
+  const styles = {
+
+    largeIcon: {
+      width: 90,
+      height: 90,
+      color: "white",
+    },
+  
+  };
+
+  const themeSize = createMuiTheme({
+    typography: {
+      // In Chinese and Japanese the characters are usually larger,
+      // so a smaller fontsize may be appropriate.
+      fontSize: 12,
+    },
+  });
+
   
   return(
 
@@ -110,19 +130,20 @@ function Header(){
     
     <AppBar
       position="fixed"
-      className="${clsx(classes.appBar, { [classes.appBarShift]: open })} Nav"
+      className="${clsx(classes.appBar, { [classes.appBarShift]: open })} Nav navRes"
       
     >
       <Toolbar>
       <div className="hamIcon">
         <IconButton
+          
           color="inherit"
           aria-label="open drawer"
           onClick={handleDrawerOpen}
           edge="start"
           className={clsx(classes.menuButton, open && classes.hide) }        
         >     
-          <MenuIcon /> 
+          <MenuIcon style={styles.largeIcon} /> 
         </IconButton>
       </div>
 
@@ -211,11 +232,12 @@ function Header(){
       }}
     >
       <div className="${classes.drawerHeader} navSlideBar Nav">
+      <div className="spacer"></div>
         <IconButton onClick={handleDrawerClose}>
           {theme.direction === "ltr" ? (
-            <ChevronLeftIcon style={{ color: "white" }}/>
+            <ChevronLeftIcon style={styles.largeIcon}/>
           ) : (
-            <ChevronRightIcon style={{ color: "white" }}/>
+            <ChevronRightIcon style={styles.largeIcon}/>
           )}
         </IconButton>
       </div>
@@ -232,7 +254,11 @@ function Header(){
           duration={500}
           style={{ color: "black" }}
         >
-          Home
+
+        <Typography variant="h4"> 
+        Home
+        </Typography>
+          
         </Link>
       </ListItem>
 
@@ -246,7 +272,11 @@ function Header(){
           duration={500}
           style={{ color: "black" }}
         >
-          Skills
+
+        <Typography variant="h4"> 
+        Skills
+        </Typography>
+
         </Link>
       </ListItem>
 
@@ -260,7 +290,11 @@ function Header(){
           duration={500}
           style={{ color: "black" }}
         >
-          Projects
+
+        <Typography variant="h4"> 
+        Projects
+        </Typography>
+
         </Link>
       </ListItem>
 
@@ -274,7 +308,11 @@ function Header(){
           duration={500}
           style={{ color: "black" }}
         >
-          About
+
+        <Typography variant="h4"> 
+        About
+        </Typography>
+
         </Link>
       </ListItem>
 
@@ -288,7 +326,11 @@ function Header(){
           duration={500}
           style={{ color: "black" }}
         >
-          Contact Me
+
+        <Typography variant="h4"> 
+        Contact Me
+        </Typography>
+
         </Link>
       </ListItem>
 
