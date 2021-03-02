@@ -71,22 +71,6 @@ function Contact(){
         } else {       
           setFailure(true);
         }
-        
-       
-        // const myName = "Willem"
-    
-        // emailjs.sendForm("service_b35ddim", "template_36107th", event.target , "user_mrm5aSXRYOQrkQh8FgJB6")
-        //   .then((result) => {
-        //       console.log(result.text);
-        //   }, (error) => {
-        //       console.log(error.text);
-        //   });
-
-        // setContact({
-        //   fName: "",
-        //   email: "",
-        //   message: ""
-        // });
 
         
 
@@ -168,7 +152,7 @@ function Contact(){
 
             <Snackbar open={failAlert} autoHideDuration={6000} onClose={handleClose}>
               <Alert onClose={handleClose} severity="error">
-                Message failed, please fill in the form
+                Message failed, please complete the form
               </Alert>
             </Snackbar>
 

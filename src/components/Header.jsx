@@ -16,8 +16,6 @@ import ChevronLeftIcon from "@material-ui/icons/ChevronLeft";
 import ChevronRightIcon from "@material-ui/icons/ChevronRight";
 import ListItem from "@material-ui/core/ListItem";
 import { Typography } from "@material-ui/core";
-import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
-
 
 
 
@@ -112,14 +110,6 @@ function Header(){
     },
   
   };
-
-  const themeSize = createMuiTheme({
-    typography: {
-      // In Chinese and Japanese the characters are usually larger,
-      // so a smaller fontsize may be appropriate.
-      fontSize: 12,
-    },
-  });
 
   
   return(
@@ -334,8 +324,9 @@ function Header(){
         </Link>
       </ListItem>
 
-    
       </List>
+
+      <Divider />
     </Drawer>
 
 
