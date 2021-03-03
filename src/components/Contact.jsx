@@ -1,5 +1,4 @@
-import React, {useState, state} from "react";
-import {makeStyles} from '@material-ui/core/styles';
+import React, {useState} from "react";
 import Snackbar from '@material-ui/core/Snackbar';
 import MuiAlert from '@material-ui/lab/Alert';
 import TextField from '@material-ui/core/TextField';
@@ -54,7 +53,7 @@ function Contact(){
         if(contact.fName !== "" || contact.message !== ""){
 
           setSuccess(true);
-          const myName = "Willem"
+          // const myName = "Willem"
     
           emailjs.sendForm("service_b35ddim", "template_36107th", event.target , "user_mrm5aSXRYOQrkQh8FgJB6")
             .then((result) => {

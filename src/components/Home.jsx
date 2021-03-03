@@ -31,7 +31,7 @@ function Home() {
         <div class="homeImages col-lg-6">
         <Zoom in="false" timeout={400}>
           <div>
-            <img src={require("./images/techBackground.jpg")} class="techBackPic"></img>
+            <img src={require("./images/techBackground.jpg")} alt="An image with code" class="techBackPic"></img>
           </div>
           </Zoom>
         </div>
