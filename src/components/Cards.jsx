@@ -42,10 +42,10 @@ function Cards(){
               </CardActions>
 
               <CardActions>
-                <Button size="small" variant="contained" color="primary" href="https://exclusivenotes.herokuapp.com/" target="_blank">
+                <Button size="medium" variant="contained" color="primary" href="https://exclusivenotes.herokuapp.com/" target="_blank">
                 View
                 </Button>
-                <Button size="small" variant="contained" color="primary" href="https://github.com/wkapenda/Exclusive-Notes" target="_blank">
+                <Button size="medium" variant="contained" color="primary" href="https://github.com/wkapenda/Exclusive-Notes" target="_blank">
                 Code
                 </Button>
               </CardActions>
@@ -80,10 +80,10 @@ function Cards(){
             </CardActions>
 
             <CardActions>
-              <Button size="small" variant="contained" color="primary" href="https://drummerkitapp.herokuapp.com/" target="_blank">
+              <Button size="medium" variant="contained" color="primary" href="https://drummerkitapp.herokuapp.com/" target="_blank">
               View
               </Button>
-              <Button size="small" variant="contained" color="primary" href="https://github.com/wkapenda/DrummerKit-App" target="_blank">
+              <Button size="medium" variant="contained" color="primary" href="https://github.com/wkapenda/DrummerKit-App" target="_blank">
               Code
               </Button>
             </CardActions>
@@ -120,10 +120,10 @@ function Cards(){
               </CardActions>
 
               <CardActions>
-                <Button size="small" variant="contained" color="primary" href="https://todolisttasks.herokuapp.com/" target="_blank">
+                <Button size="medium" variant="contained" color="primary" href="https://todolisttasks.herokuapp.com/" target="_blank">
                 View
                 </Button>
-                <Button size="small" variant="contained" color="primary" href="https://github.com/wkapenda/ToDoList-App" target="_blank">
+                <Button size="medium" variant="contained" color="primary" href="https://github.com/wkapenda/ToDoList-App" target="_blank">
                 Code
                 </Button>
               </CardActions>
@@ -157,10 +157,10 @@ function Cards(){
             </CardActions>
 
             <CardActions>
-              <Button size="small" variant="contained" color="primary" href="https://dicegame2players.herokuapp.com/" target="_blank">
+              <Button size="medium" variant="contained" color="primary" href="https://dicegame2players.herokuapp.com/" target="_blank">
               View
               </Button>
-              <Button size="small" variant="contained" color="primary" href="https://github.com/wkapenda/Dice-Game" target="_blank">
+              <Button size="medium" variant="contained" color="primary" href="https://github.com/wkapenda/Dice-Game" target="_blank">
               Code
               </Button>
             </CardActions>
@@ -194,10 +194,10 @@ function Cards(){
               </CardActions>
 
               <CardActions>
-                <Button size="small" variant="contained" color="primary" href="https://wkapenda.github.io/Concho-Website/" target="_blank">
+                <Button size="medium" variant="contained" color="primary" href="https://wkapenda.github.io/Concho-Website/" target="_blank">
                 View
                 </Button>
-                <Button size="small" variant="contained" color="primary" href="https://github.com/wkapenda/Concho-Website" target="_blank">
+                <Button size="medium" variant="contained" color="primary" href="https://github.com/wkapenda/Concho-Website" target="_blank">
                 Code
                 </Button>
               </CardActions>
@@ -228,10 +228,10 @@ function Cards(){
             </CardActions>
 
             <CardActions>
-              <Button size="small" variant="contained" color="primary" href="https://wkapenda.github.io/Tindog-Website/" target="_blank">
+              <Button size="medium" variant="contained" color="primary" href="https://wkapenda.github.io/Tindog-Website/" target="_blank">
               View
               </Button>
-              <Button size="small" variant="contained" color="primary" href="https://github.com/wkapenda/Tindog-Website" target="_blank">
+              <Button size="medium" variant="contained" color="primary" href="https://github.com/wkapenda/Tindog-Website" target="_blank">
               Code
               </Button>
             </CardActions>

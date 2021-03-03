@@ -300,7 +300,14 @@ a:hover, a:visited, a:link, a:active
   .socialMedia, .sm {
     font-size: 200%;
     text-align: center;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 2rem;
 
+  }
+
+  .submitbtn, .projectbtn {
+    font-size: 200%;
   }
 
   .copyright {

@@ -95,7 +95,7 @@ function Contact(){
         <form onSubmit={sendEmail} enctype="text/plain" id="form1">
           <h3>Drop me a Message</h3>
             <div class="row">
-              <div class="col-sm-12 col-md-6">
+              <div class="col-sm-12 col-lg-6">
                 <div class="form-group">
                   <TextField
                     autoComplete="off"                   
@@ -122,7 +122,7 @@ function Contact(){
                 </div>
               </div>
 
-              <div class="col-sm-12 col-md-6">
+              <div class="col-sm-12 col-lg-6">
                 <div class="form-group">
                   <TextField                   
                     autoComplete="off"
@@ -138,7 +138,7 @@ function Contact(){
                 </div>
                     
                 <div class="form-group">
-                  <Button type="submit" form="form1" variant="primary" value="Send">Send Message</Button>
+                  <Button className="submitbtn" type="submit" form="form1" variant="primary" value="Send">Send Message</Button>
                 </div>
               </div>
               
