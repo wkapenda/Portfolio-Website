@@ -95,14 +95,14 @@ function Contact(){
         <form onSubmit={sendEmail} enctype="text/plain" id="form1">
           <h3>Drop me a Message</h3>
             <div class="row">
-              <div class="col-md-6">
+              <div class="col-sm-12 col-md-6">
                 <div class="form-group">
                   <TextField
                     autoComplete="off"                   
                     name="fName"
                     label="Name"
                     variant="outlined" 
-                    style={{ width: "80%"}}
+                    style={{ width: "100%"}}
                     value={contact.fName}
                     onChange={DetectTyping} 
                   />
@@ -115,14 +115,14 @@ function Contact(){
                     name="email"
                     label="Email"
                     variant="outlined"
-                    style={{ width: "80%"}}
+                    style={{ width: "100%"}}
                     value={contact.email}
                     onChange={DetectTyping}
                   />
                 </div>
               </div>
 
-              <div class="col-md-6">
+              <div class="col-sm-12 col-md-6">
                 <div class="form-group">
                   <TextField                   
                     autoComplete="off"
