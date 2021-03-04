@@ -12,6 +12,7 @@ function Footer(){
                         class="fab fa-linkedin sm"
                         style={{color: "white"}}
                         target="_blank" 
+                        rel="noopener noreferrer"
                         href="https://www.linkedin.com/in/willem-kapenda-91331484/">
                     </a>
                     <a 
@@ -19,6 +20,7 @@ function Footer(){
                         class="fab fa-github sm"
                         style={{color: "white"}}
                         target="_blank"
+                        rel="noopener noreferrer"
                         textDecoration= "none"
                         href="https://github.com/wkapenda">
                     </a>

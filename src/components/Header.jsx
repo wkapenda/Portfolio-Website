@@ -1,4 +1,4 @@
-import React, { Component, useState} from "react";
+import React, {useState} from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
 
 // Drawer dependencies
@@ -26,7 +26,7 @@ function Header(){
 
   const [isNavCollapsed, setIsNavCollapsed] = useState(true);
 
-  const handleNavCollapse = () => setIsNavCollapsed(!isNavCollapsed);
+  // const handleNavCollapse = () => setIsNavCollapsed(!isNavCollapsed);
 
   // Drawer functions
 
@@ -144,7 +144,7 @@ function Header(){
             alt="Logo"
             onClick={scrollToTop} 
         >
-        <img src={require("./images/wklogo.png")} class="wklogo"></img>
+        <img src={require("./images/wklogo.png")} alt="My website logo" class="wklogo"></img>
         </Link>
 
         <div className="navlinks  ml-auto">

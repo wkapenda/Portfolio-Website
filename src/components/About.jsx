@@ -9,7 +9,7 @@ function About(){
         
             <div class="row aboutPicDes">
                 <div class="col-lg-6 col-sm-12 col-xs-6 py-2">
-                    <img src={require("./images/profilePhoto.png")} class="profilePic"></img>
+                    <img src={require("./images/profilePhoto.png")} alt="My profile ID" class="profilePic"></img>
                 </div>
 
                 <div class="col-lg-6 col-sm-12 col-xs-6 py-2"> 
