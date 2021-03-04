@@ -20,8 +20,9 @@ function Home() {
         <h2 class="jobTitle">Software Engineer</h2>
         <Slide in="true" direction="up"> 
           <p class="serviceDescription"> I develop maintainable, user-friendly, scalable and responsive web applications 
-          using modern front-end and back-end skills. I am detail-oriented, organized, and precise in my work.  
-          I want to create products that provide great value to companies and give users meaningful experiences.
+          using modern front-end and back-end skills. Using algorithms and data structures to perform the tasks related to 
+          data processing, automated reasoning, and calculations. I have strong analytical skills with the ability to visualise 
+          processses and outcomes. I want to create products that provide great value to companies and give users meaningful experiences.
           At heart, I am a problem solver who looks forward to challenges, and achieving success. 
           I am interested in working on exciting projects with like-minded ambitious people.</p>
         </Slide>
