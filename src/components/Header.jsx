@@ -1,6 +1,6 @@
 //jshint esversion:6
 
-import React, {useState} from "react";
+import React from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
 
 // Drawer dependencies
