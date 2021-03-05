@@ -1,3 +1,5 @@
+//jshint esversion:6
+
 import React, {useState} from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
 
@@ -24,7 +26,7 @@ function Header(){
 
   const scrollToTop = () => scroll.scrollToTop();
 
-  const [isNavCollapsed, setIsNavCollapsed] = useState(true);
+  // const [isNavCollapsed, setIsNavCollapsed] = useState(true);
 
   // const handleNavCollapse = () => setIsNavCollapsed(!isNavCollapsed);
 
